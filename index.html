@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <scr ipt src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ondřej Gola – student IT, webový vývojář a síťový nadšenec. Osobní portfolio s ukázkami projektů." />
+  <meta name="keywords" content="Ondřej Gola, portfolio, webový vývoj, HTML, CSS, JavaScript, Cisco, sítě" />
+  <meta name="author" content="Ondřej Gola" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0a0a0f" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://og4575.github.io/portfolio/" />
+  <meta property="og:title" content="Ondřej Gola – Portfolio" />
+  <meta property="og:description" content="Student IT, webový vývojář a síťový nadšenec. Podívejte se na moje projekty." />
+  <meta property="og:image" content="https://og4575.github.io/portfolio/images/og-image.png" />
+  <meta property="og:locale" content="cs_CZ" />
+  <meta property="og:site_name" content="Ondřej Gola Portfolio" />
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://og4575.github.io/portfolio/" />
+  <meta name="twitter:title" content="Ondřej Gola – Portfolio" />
+  <meta name="twitter:description" content="Student IT, webový vývojář a síťový nadšenec." />
+  <meta name="twitter:image" content="https://og4575.github.io/portfolio/images/og-image.png" />
+
+  <!-- Strukturovaná data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ondřej Gola",
+    "url": "https://og4575.github.io/portfolio/",
+    "email": "ondrej.gola@email.cz",
+    "sameAs": [
+      "https://github.com/OG4575",
+      "https://www.instagram.com/tucinek/"
+    ],
+    "jobTitle": "Student IT",
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "Počítačové sítě", "Cisco Packet Tracer"]
+  }
+  </script>
+
+  <title>Ondřej Gola – Portfolio</title>
+  <link rel="canonical" href="https://og4575.github.io/portfolio/" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- SKIP LINK pro přístupnost -->
+  <a href="#main-content" class="skip-link">Přejít na hlavní obsah</a>
+
+  <!-- HEADER / NAVIGACE -->
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Hlavní navigace">
+      <a href="#hero" class="nav__logo" aria-label="Domů – Ondřej Gola">OG</a>
+      <button class="nav__burger" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+      <ul class="nav__list" id="nav-menu" role="list">
+        <li><a href="#about" class="nav__link">O mně</a></li>
+        <li><a href="#projects" class="nav__link">Projekty</a></li>
+        <li><a href="#contact" class="nav__link">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SEKCE -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow" aria-hidden="true">// portfolio</p>
+        <h1 class="hero__name" id="hero-heading">
+          <span class="hero__name-first">Ondřej</span>
+          <span class="hero__name-last">Gola</span>
+        </h1>
+        <p class="hero__tagline">Student IT &middot; Hráč videoher &middot; Master prokrastinace</p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">Moje projekty</a>
+          <a href="#contact" class="btn btn--outline">Kontaktovat</a>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="scroll-indicator"></span>
+      </div>
+    </section>
+
+    <!-- O MNĚ -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">01 / O MNĚ</div>
+        <h2 class="section-title" id="about-heading">Kdo jsem</h2>
+        <div class="about__grid">
+          <div class="about__text">
+            <p>Jmenuji se <strong>Ondřej Gola</strong> a studuji obor informační technologie. Bavý mě vývoj webových stránek a počítačové sítě – baví mě vidět, jak věci pod kapotou fungují.</p>
+            <p>Ve volném čase tvořím projekty na GitHubu, experimentuji s HTML, CSS a JavaScriptem a modeluji síťové topologie v Cisco Packet Traceru.</p>
+          </div>
+          <div class="about__stats" role="list" aria-label="Statistiky">
+            <div class="stat" role="listitem">
+              <span class="stat__num" aria-label="2 projekty">2</span>
+              <span class="stat__label">Projekty</span>
+            </div>
+            <div class="stat" role="listitem">
+              <span class="stat__num" aria-label="3 technologie">Nine circles</span>
+              <span class="stat__label">Můj hardest lvl v Geometry Dash</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJEKTY -->
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">02 / PROJEKTY</div>
+        <h2 class="section-title" id="projects-heading">Co jsem dělal</h2>
+        <div class="projects__grid">
+
+          <!-- Projekt 1 -->
+          <article class="project-card" aria-labelledby="proj1-title">
+            <div class="project-card__header">
+              <span class="project-card__num" aria-hidden="true">01</span>
+              <div class="project-card__tags" aria-label="Technologie projektu">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+            <h3 class="project-card__title" id="proj1-title">Web o Marku Zuckerbergovi</h3>
+            <p class="project-card__desc">Webová stránka věnovaná Marku Zuckerbergovi, vytvořená s pomocí GitHub Copilot. Obsahuje dark/light mode přepínač, který mě při práci bavil nejvíc.</p>
+            <div class="project-card__footer">
+              <a href="https://og4575.github.io/2IT-web-Gola-Ondrej/"
+                 class="project-link"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Zobrazit živý web – Web o Marku Zuckerbergovi">
+                Živý web ↗
+              </a>
+              <a href="https://github.com/OG4575/2IT-web-Gola-Ondrej"
+                 class="project-link project-link--secondary"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Zdrojový kód na GitHubu – Web o Marku Zuckerbergovi">
+                GitHub ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Projekt 2 -->
+          <article class="project-card" aria-labelledby="proj2-title">
+            <div class="project-card__header">
+              <span class="project-card__num" aria-hidden="true">02</span>
+              <div class="project-card__tags" aria-label="Technologie projektu">
+                <span class="tag">Cisco</span>
+                <span class="tag">Packet Tracer</span>
+                <span class="tag">DHCP</span>
+                <span class="tag">DNS</span>
+              </div>
+            </div>
+            <h3 class="project-card__title" id="proj2-title">LAN síť – Cisco Packet Tracer</h3>
+            <p class="project-card__desc">Simulace lokální sítě se 2 switchi, 2 počítači a 2 servery (DHCP+DNS a webový). Obsahuje plnou IP adresaci, DNS doménu <code>gola.cz</code> a výpočet hodnoty X.</p>
+            <div class="project-card__footer">
+              <a href="https://github.com/OG4575/LAN"
+                 class="project-link"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Zdrojový kód na GitHubu – LAN síť">
+                GitHub ↗
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">03 / KONTAKT</div>
+        <h2 class="section-title" id="contact-heading">Ozvěte se</h2>
+        <p class="contact__intro">Máte zájem o spolupráci nebo jen chcete pozdravit? Napište mi.</p>
+        <div class="contact__links">
+          <a href="mailto:ondrej.gola@email.cz"
+             class="contact-item"
+             aria-label="Napsat email na ondrej.gola@email.cz">
+            <span class="contact-item__icon" aria-hidden="true">✉</span>
+            <span>ondrej.gola@email.cz</span>
+          </a>
+          <a href="https://www.instagram.com/tucinek/"
+             class="contact-item"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Instagram profil @tucinek (otevře se v novém okně)">
+            <span class="contact-item__icon" aria-hidden="true">◈</span>
+            <span>@tucinek</span>
+          </a>
+          <a href="https://github.com/OG4575"
+             class="contact-item"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="GitHub profil OG4575 (otevře se v novém okně)">
+            <span class="contact-item__icon" aria-hidden="true">⌥</span>
+            <span>OG4575</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__copy">
+        <span>© 2025 Ondřej Gola</span>
+        <span class="footer__sep" aria-hidden="true">—</span>
+        <span>Postaveno s HTML, CSS &amp; JS</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
