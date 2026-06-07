@@ -2,7 +2,7 @@
 
 Mé osobní portfolio. Web je postaven na čistém HTML5, CSS3 a Vanilla JavaScriptu bez použití jakýchkoliv frameworků.
 
-🔗 **Živý web:** [og4575.github.io/portfolio](https://og4575.github.io/portfolio_web/)
+🔗 **Živý web:** [zde](https://og4575.github.io/portfolio_web/)
 
 ---
 
