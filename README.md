@@ -179,7 +179,6 @@ Při tvorbě projektu jsem využil Claude AI jako hlavní nástroj pro generová
 
 | Prompt | Co AI přinesla |
 |--------|---------------|
-| `"Vytvoř osobní portfolio web v HTML, CSS a JS bez frameworků. Červeno-černé barvy, Mobile First."` | Většina kostry projektu – index.html, style.css, main.js se správnou strukturou složek |
 | `"Přidej všechny potřebné meta tagy pro SEO, Open Graph a Twitter Cards."` | Správně napsané OG a Twitter Card meta tagy včetně JSON-LD strukturovaných dat |
 | `"Zajisti přístupnost webu – ARIA atributy, skip link, focus-visible, prefers-reduced-motion."` | Implementace WCAG standardů, které bych sám těžko psal správně |
 
